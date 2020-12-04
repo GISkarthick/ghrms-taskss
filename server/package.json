@@ -1,0 +1,42 @@
+{
+  "name": "qhrms",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "run": "node ./bin/www",
+    "start": "forever start -c 'node -r esm ./bin/www' --uid qhrms --append true ./",
+    "stop": "forever stop qhrms"
+  },
+  "dependencies": {
+    "authy": "^1.4.0",
+    "bcrypt": "^4.0.1",
+    "bunyan": "^1.8.12",
+    "compression": "^1.7.4",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "~4.16.1",
+    "express-validator": "^6.4.0",
+    "http-errors": "~1.6.3",
+    "http-status": "^1.4.2",
+    "jade": "~1.11.0",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.10",
+    "nodemailer": "^6.4.16",
+    "password-generator": "^2.3.2"
+  },
+  "devDependencies": {
+    "es-beautifier": "^1.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-plugin-eslint-plugin": "^2.2.1",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-jsdoc": "^22.0.1",
+    "eslint-watch": "^6.0.1",
+    "nodemon": "^2.0.3"
+  }
+}
