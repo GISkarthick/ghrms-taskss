@@ -12,7 +12,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"name\": \"stefen\",\n    \"email\": \"arunrajj@outlook.com\",\n    \"password\": \"12345678\",\n    \"role\": \"admin\",\n    \"mobile\": \"9988776633\"\n}",
+					"raw": "{\n    \"name\": \"stefen\",\n    \"email\": \"karthick@gmail.com\",\n    \"password\": \"12345678\",\n    \"role\": \"admin\",\n    \"mobile\": \"9988776633\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -41,7 +41,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"email\": \"arunrajj@outlook.com\",\n    \"password\": \"12345678\"\n}",
+					"raw": "{\n    \"email\": \"karthick@gmail.com\",\n    \"password\": \"12345678\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -70,7 +70,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\"email\": \"arunrajj@outlook.com\"}",
+					"raw": "{\"email\": \"karthick@gmail.com\"}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -99,7 +99,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\"email\": \"arunrajj@outlook.com\"}",
+					"raw": "{\"email\": \"karthick@gmail.com\"}",
 					"options": {
 						"raw": {
 							"language": "json"

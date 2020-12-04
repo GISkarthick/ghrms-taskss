@@ -7,7 +7,7 @@ function PublicRoute({ component: Component, ...rest }) {
   return (
     <Route
       {...rest}
-      render={(props) => !localStorage.getItem('token') ? <Component {...props} /> : <Redirect to={{ pathname: '/cart1' }} />}
+      render={(props) => !localStorage.getItem('token') ? <Component {...props} /> : <Redirect to={{ pathname: '/dashboard' }} />}
     />
   )
 }

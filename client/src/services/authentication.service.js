@@ -1,7 +1,7 @@
 
 import {baseUrl} from '../config';
 import { httpServices } from "./httpServices";
-
+import { history } from "../utils/history";
 
 export const authenticationService = {
     login,
@@ -19,20 +19,14 @@ function login (data){
 
     let params = JSON.stringify({ Email, Password });
     return httpServices.post(`${baseUrl}users/login`, data).then(resp => {
-        console.log(resp);
-        setUserSession(resp.token, resp.user, resp.key);
+        // console.log(resp);
+        localStorage.setItem('token', resp.token);
         return resp;
     });
 
 }
 
 function logout() {
-    localStorage.removeItem('currentUser');
+    localStorage.removeItem('token');
+    history.push('/login')
 }
-
-const setUserSession = (token, user, key) => {
-    
-    localStorage.setItem('token', token);
-    localStorage.setItem('currentUser', JSON.stringify(user));
-    localStorage.setItem('key', key);
-  }

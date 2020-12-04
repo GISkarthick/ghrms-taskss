@@ -8,11 +8,13 @@ import NotFoundPage from "./pages/NotFoundPage";
 import PrivateRoute from './utils/PrivateRoute';
 import PublicRoute from './utils/PublicRoute';
 import { history } from "./utils/history";
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
     <div className="App">
-
+      <ToastContainer autoClose={3000} />
       <Router history={history} >
           <div className="content-wrapper">
             <Switch>

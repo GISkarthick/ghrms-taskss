@@ -85,7 +85,7 @@
   justify-content: space-between;
   margin-bottom: 25px;
 }
-.keep_login span{
+.keep_login span, .link_text{
   color: #007bff;
   text-decoration: none;
   background-color: transparent;
@@ -116,4 +116,34 @@ img{
   opacity: 0.9;
   text-align: justify;
   margin-bottom: 30px;
+}
+.error {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding-top: 5px;
+  color: #f42626;
+  font-size: 12px;
+}
+.toast.show {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.toast.show {
+  position: absolute;
+  top: 10px;
+  right: 9px;
+  min-width: 300px;
+}
+.toaster_block{
+  position: absolute;
+  top: 10px;
+  right: 9px;
+  width: 300px;
+  min-width: 300px;
+}
+.toast-header {
+  color: #fff;
+  background-color: #43b785;
 }
